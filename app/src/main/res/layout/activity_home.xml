@@ -18,28 +18,27 @@
         android:orientation="horizontal">
 
 
-            <Button
-                android:id="@+id/btn_food"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="FOOD"
-                android:drawableTop="@drawable/dinner"
-                android:backgroundTint="@color/colorPrimary"
-                android:textColor="#fff"
-                android:textSize="30sp"/>
+        <Button
+            android:id="@+id/btn_food"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableTop="@drawable/dinner"
+            android:text="FOOD"
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
-            <Button
-                android:id="@+id/btn_exercise"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="EXERCISE"
-                android:drawableTop="@drawable/ic_directions_run_black_24dp"
-                android:backgroundTint="@color/colorPrimaryDark"
-                android:textColor="#fff"
-                android:textSize="20sp"
-                />
+        <Button
+            android:id="@+id/btn_exercise"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:drawableTop="@drawable/ic_directions_run_black_24dp"
+            android:text="EXERCISE"
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
 
     </LinearLayout>
@@ -50,17 +49,17 @@
         android:orientation="horizontal">
 
 
-            <Button
-                android:id="@+id/btn_goal"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@color/colorPrimaryDark"
+        <Button
+            android:id="@+id/btn_goal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
 
-                android:text="GOAL"
-                android:textColor="#fff"
-                android:textSize="30sp"
-                android:drawableTop="@drawable/ic_flag_black_24dp"/>
+            android:drawableTop="@drawable/ic_flag_black_24dp"
+            android:text="GOAL"
+            android:textColor="#fff"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/btn_optimization"
